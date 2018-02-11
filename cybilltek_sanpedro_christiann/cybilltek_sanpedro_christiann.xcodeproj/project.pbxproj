@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACADAE692030A97F00712A50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACADAE682030A97F00712A50 /* AppDelegate.swift */; };
+		ACADAE6B2030A97F00712A50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACADAE6A2030A97F00712A50 /* ViewController.swift */; };
+		ACADAE6E2030A97F00712A50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACADAE6C2030A97F00712A50 /* Main.storyboard */; };
+		ACADAE712030A97F00712A50 /* cybilltek_sanpedro_christiann.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ACADAE6F2030A97F00712A50 /* cybilltek_sanpedro_christiann.xcdatamodeld */; };
+		ACADAE732030A97F00712A50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACADAE722030A97F00712A50 /* Assets.xcassets */; };
+		ACADAE762030A97F00712A50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACADAE742030A97F00712A50 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ACADAE652030A97F00712A50 /* cybilltek_sanpedro_christiann.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cybilltek_sanpedro_christiann.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACADAE682030A97F00712A50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACADAE6A2030A97F00712A50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACADAE6D2030A97F00712A50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACADAE702030A97F00712A50 /* cybilltek_sanpedro_christiann.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = cybilltek_sanpedro_christiann.xcdatamodel; sourceTree = "<group>"; };
+		ACADAE722030A97F00712A50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACADAE752030A97F00712A50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACADAE772030A97F00712A50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACADAE622030A97F00712A50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACADAE5C2030A97F00712A50 = {
+			isa = PBXGroup;
+			children = (
+				ACADAE672030A97F00712A50 /* cybilltek_sanpedro_christiann */,
+				ACADAE662030A97F00712A50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACADAE662030A97F00712A50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACADAE652030A97F00712A50 /* cybilltek_sanpedro_christiann.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACADAE672030A97F00712A50 /* cybilltek_sanpedro_christiann */ = {
+			isa = PBXGroup;
+			children = (
+				ACADAE682030A97F00712A50 /* AppDelegate.swift */,
+				ACADAE6A2030A97F00712A50 /* ViewController.swift */,
+				ACADAE6C2030A97F00712A50 /* Main.storyboard */,
+				ACADAE722030A97F00712A50 /* Assets.xcassets */,
+				ACADAE742030A97F00712A50 /* LaunchScreen.storyboard */,
+				ACADAE772030A97F00712A50 /* Info.plist */,
+				ACADAE6F2030A97F00712A50 /* cybilltek_sanpedro_christiann.xcdatamodeld */,
+			);
+			path = cybilltek_sanpedro_christiann;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACADAE642030A97F00712A50 /* cybilltek_sanpedro_christiann */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACADAE7A2030A97F00712A50 /* Build configuration list for PBXNativeTarget "cybilltek_sanpedro_christiann" */;
+			buildPhases = (
+				ACADAE612030A97F00712A50 /* Sources */,
+				ACADAE622030A97F00712A50 /* Frameworks */,
+				ACADAE632030A97F00712A50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cybilltek_sanpedro_christiann;
+			productName = cybilltek_sanpedro_christiann;
+			productReference = ACADAE652030A97F00712A50 /* cybilltek_sanpedro_christiann.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACADAE5D2030A97F00712A50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Christiann Carlos San Pedro";
+				TargetAttributes = {
+					ACADAE642030A97F00712A50 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = ACADAE602030A97F00712A50 /* Build configuration list for PBXProject "cybilltek_sanpedro_christiann" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACADAE5C2030A97F00712A50;
+			productRefGroup = ACADAE662030A97F00712A50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACADAE642030A97F00712A50 /* cybilltek_sanpedro_christiann */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACADAE632030A97F00712A50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACADAE762030A97F00712A50 /* LaunchScreen.storyboard in Resources */,
+				ACADAE732030A97F00712A50 /* Assets.xcassets in Resources */,
+				ACADAE6E2030A97F00712A50 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACADAE612030A97F00712A50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACADAE6B2030A97F00712A50 /* ViewController.swift in Sources */,
+				ACADAE712030A97F00712A50 /* cybilltek_sanpedro_christiann.xcdatamodeld in Sources */,
+				ACADAE692030A97F00712A50 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ACADAE6C2030A97F00712A50 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACADAE6D2030A97F00712A50 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACADAE742030A97F00712A50 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACADAE752030A97F00712A50 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACADAE782030A97F00712A50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACADAE792030A97F00712A50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACADAE7B2030A97F00712A50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 97ER4DY8J5;
+				INFOPLIST_FILE = cybilltek_sanpedro_christiann/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cpsanpedro.cybilltek-sanpedro-christiann";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACADAE7C2030A97F00712A50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 97ER4DY8J5;
+				INFOPLIST_FILE = cybilltek_sanpedro_christiann/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cpsanpedro.cybilltek-sanpedro-christiann";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACADAE602030A97F00712A50 /* Build configuration list for PBXProject "cybilltek_sanpedro_christiann" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACADAE782030A97F00712A50 /* Debug */,
+				ACADAE792030A97F00712A50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACADAE7A2030A97F00712A50 /* Build configuration list for PBXNativeTarget "cybilltek_sanpedro_christiann" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACADAE7B2030A97F00712A50 /* Debug */,
+				ACADAE7C2030A97F00712A50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ACADAE6F2030A97F00712A50 /* cybilltek_sanpedro_christiann.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ACADAE702030A97F00712A50 /* cybilltek_sanpedro_christiann.xcdatamodel */,
+			);
+			currentVersion = ACADAE702030A97F00712A50 /* cybilltek_sanpedro_christiann.xcdatamodel */;
+			path = cybilltek_sanpedro_christiann.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ACADAE5D2030A97F00712A50 /* Project object */;
+}
