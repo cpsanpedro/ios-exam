@@ -1,0 +1,6 @@
+framework module Pods_cybilltek_sanpedro_christiann {
+  umbrella header "Pods-cybilltek_sanpedro_christiann-umbrella.h"
+
+  export *
+  module * { export * }
+}

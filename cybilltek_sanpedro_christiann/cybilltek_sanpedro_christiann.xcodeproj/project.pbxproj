@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9712D9D7489D441B7806D2EC /* Pods_cybilltek_sanpedro_christiann.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6B1A01F73E1870D1A8A8693 /* Pods_cybilltek_sanpedro_christiann.framework */; };
 		ACADAE692030A97F00712A50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACADAE682030A97F00712A50 /* AppDelegate.swift */; };
 		ACADAE6B2030A97F00712A50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACADAE6A2030A97F00712A50 /* ViewController.swift */; };
 		ACADAE6E2030A97F00712A50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACADAE6C2030A97F00712A50 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		831079E990A85031F3E8F02A /* Pods-cybilltek_sanpedro_christiann.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cybilltek_sanpedro_christiann.debug.xcconfig"; path = "Pods/Target Support Files/Pods-cybilltek_sanpedro_christiann/Pods-cybilltek_sanpedro_christiann.debug.xcconfig"; sourceTree = "<group>"; };
 		ACADAE652030A97F00712A50 /* cybilltek_sanpedro_christiann.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cybilltek_sanpedro_christiann.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACADAE682030A97F00712A50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACADAE6A2030A97F00712A50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +26,8 @@
 		ACADAE722030A97F00712A50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACADAE752030A97F00712A50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACADAE772030A97F00712A50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6B1A01F73E1870D1A8A8693 /* Pods_cybilltek_sanpedro_christiann.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cybilltek_sanpedro_christiann.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E155D13EED3BC898DCF0E1B3 /* Pods-cybilltek_sanpedro_christiann.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cybilltek_sanpedro_christiann.release.xcconfig"; path = "Pods/Target Support Files/Pods-cybilltek_sanpedro_christiann/Pods-cybilltek_sanpedro_christiann.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9712D9D7489D441B7806D2EC /* Pods_cybilltek_sanpedro_christiann.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4DB336312B89FC68D88A7FE7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				831079E990A85031F3E8F02A /* Pods-cybilltek_sanpedro_christiann.debug.xcconfig */,
+				E155D13EED3BC898DCF0E1B3 /* Pods-cybilltek_sanpedro_christiann.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8762D123511B734A794FD5D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6B1A01F73E1870D1A8A8693 /* Pods_cybilltek_sanpedro_christiann.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		ACADAE5C2030A97F00712A50 = {
 			isa = PBXGroup;
 			children = (
 				ACADAE672030A97F00712A50 /* cybilltek_sanpedro_christiann */,
 				ACADAE662030A97F00712A50 /* Products */,
+				4DB336312B89FC68D88A7FE7 /* Pods */,
+				8762D123511B734A794FD5D4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ACADAE7A2030A97F00712A50 /* Build configuration list for PBXNativeTarget "cybilltek_sanpedro_christiann" */;
 			buildPhases = (
+				483EDBACB1079275E32C5F56 /* [CP] Check Pods Manifest.lock */,
 				ACADAE612030A97F00712A50 /* Sources */,
 				ACADAE622030A97F00712A50 /* Frameworks */,
 				ACADAE632030A97F00712A50 /* Resources */,
+				F2A4FCB7D111B80442B69EF5 /* [CP] Embed Pods Frameworks */,
+				D89A550A64C5D1504864A558 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -133,6 +160,60 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		483EDBACB1079275E32C5F56 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cybilltek_sanpedro_christiann-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D89A550A64C5D1504864A558 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cybilltek_sanpedro_christiann/Pods-cybilltek_sanpedro_christiann-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2A4FCB7D111B80442B69EF5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-cybilltek_sanpedro_christiann/Pods-cybilltek_sanpedro_christiann-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cybilltek_sanpedro_christiann/Pods-cybilltek_sanpedro_christiann-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		ACADAE612030A97F00712A50 /* Sources */ = {
@@ -276,11 +357,13 @@
 		};
 		ACADAE7B2030A97F00712A50 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 831079E990A85031F3E8F02A /* Pods-cybilltek_sanpedro_christiann.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 97ER4DY8J5;
 				INFOPLIST_FILE = cybilltek_sanpedro_christiann/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cpsanpedro.cybilltek-sanpedro-christiann";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -291,11 +374,13 @@
 		};
 		ACADAE7C2030A97F00712A50 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E155D13EED3BC898DCF0E1B3 /* Pods-cybilltek_sanpedro_christiann.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 97ER4DY8J5;
 				INFOPLIST_FILE = cybilltek_sanpedro_christiann/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cpsanpedro.cybilltek-sanpedro-christiann";
 				PRODUCT_NAME = "$(TARGET_NAME)";
