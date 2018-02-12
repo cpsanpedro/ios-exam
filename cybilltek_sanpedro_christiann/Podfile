@@ -8,5 +8,6 @@ target 'cybilltek_sanpedro_christiann' do
   # Pods for cybilltek_sanpedro_christiann
 
     pod 'Alamofire', '~> 4.5'
+    pod 'Firebase/Core'
 
 end
