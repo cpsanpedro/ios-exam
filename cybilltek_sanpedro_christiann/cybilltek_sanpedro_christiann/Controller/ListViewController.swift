@@ -61,7 +61,7 @@ class ListViewController: UIViewController,UITableViewDataSource,UITableViewDele
             if let json = response.result.value {
               print("json:\(json)")
               self.save(json)
-//              self.read()
+              self.arrPersons = self.read()
           }
           case .failure(let error):
             print(error)
