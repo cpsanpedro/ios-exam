@@ -13,6 +13,8 @@ import Alamofire
 
 class ListViewController: UIViewController,UITableViewDataSource,UITableViewDelegate {
   
+  //MARK: Properties
+  @IBOutlet weak var listTableView: UITableView!
   var arrPersons: [Persons] = []
   var selectedRow = 0
   
@@ -31,7 +33,7 @@ class ListViewController: UIViewController,UITableViewDataSource,UITableViewDele
   }
   
   func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-    let cell = tableView.dequeueReusableCell(withIdentifier:cellIdentifiers.listCellIdentifier, for: indexPath)
+    let cell = tableView.dequeueReusableCell(withIdentifier:identifiers.listCellIdentifier, for: indexPath)
     let person = arrPersons[indexPath.row]
     
     cell.textLabel?.text = person.firstname
@@ -41,7 +43,7 @@ class ListViewController: UIViewController,UITableViewDataSource,UITableViewDele
   //MARK: TableView Delegate
   func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
     selectedRow = indexPath.row
-    self.performSegue(withIdentifier: "goToNext", sender: self)
+    self.performSegue(withIdentifier: identifiers.goToNextIdentifier, sender: self)
   }
   
 
@@ -59,9 +61,9 @@ class ListViewController: UIViewController,UITableViewDataSource,UITableViewDele
         switch response.result {
           case .success:
             if let json = response.result.value {
-              print("json:\(json)")
               self.save(json)
               self.arrPersons = self.read()
+              self.listTableView.reloadData()
           }
           case .failure(let error):
             print(error)
@@ -84,8 +86,6 @@ class ListViewController: UIViewController,UITableViewDataSource,UITableViewDele
   
   func read() -> [Persons] {
     let read = Person.fetchAllPerson()
-    print("fetch:\(read)")
-    
     return read as! [Persons]
   }
   
@@ -96,7 +96,7 @@ class ListViewController: UIViewController,UITableViewDataSource,UITableViewDele
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
-      if segue.identifier == "goToNext" {
+      if segue.identifier == identifiers.goToNextIdentifier {
        let vc = segue.destination as! DetailsViewController
         vc.selectedPerson = arrPersons[selectedRow]
       }

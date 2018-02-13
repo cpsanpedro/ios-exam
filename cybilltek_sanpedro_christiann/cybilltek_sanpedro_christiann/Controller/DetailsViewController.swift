@@ -13,12 +13,19 @@ class DetailsViewController: UIViewController,UITableViewDelegate,UITableViewDat
   //MARK: Properties
   @IBOutlet weak var detailTableView: UITableView!
   var selectedPerson: Persons? = nil
-  let arrTitles = ["First Name","Last Name", "Birthday", "Age", "Email address", "Mobile Number", "Address", "Contact Person", "Contact person's phone number"]
+  let arrTitles = [titles.firstname,
+                   titles.lastname,
+                   titles.birthday,
+                   titles.age,
+                   titles.email,
+                   titles.mobile_number,
+                   titles.address,
+                   titles.contact_person,
+                   titles.contact_person_number]
 
   //MARK: Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
-      print("person:\(String(describing: selectedPerson?.email))")
         // Do any additional setup after loading the view.
     }
 
@@ -33,12 +40,10 @@ class DetailsViewController: UIViewController,UITableViewDelegate,UITableViewDat
   }
   
   func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-    var cell = tableView.dequeueReusableCell(withIdentifier: "CellDetails") as? CellDetails
+    var cell = tableView.dequeueReusableCell(withIdentifier: identifiers.cellDetailIdentifier) as? CellDetails
     if cell == nil {
-      cell = CellDetails(style:UITableViewCellStyle.default, reuseIdentifier: "CellDetails")
+      cell = CellDetails(style:UITableViewCellStyle.default, reuseIdentifier: identifiers.cellDetailIdentifier)
     }
-    
-    
     
     cell?.titleLabel.text = arrTitles[indexPath.row]
     var strValue = ""
@@ -51,7 +56,6 @@ class DetailsViewController: UIViewController,UITableViewDelegate,UITableViewDat
       strValue = selectedPerson?.birthday ?? ""
     case 3:
       let birthday = DateUtil.getDateOf((selectedPerson?.birthday)!, withFormat:"MMM d, YYYY")
-//      let birthday = DateUtil.getDateOf(selectedPerson?.birthday,"MMM d, YYYY")
       let age = DateUtil.calculateAge(Of:birthday)
       strValue = String(age)
     case 4:
@@ -71,14 +75,5 @@ class DetailsViewController: UIViewController,UITableViewDelegate,UITableViewDat
     
     return cell!
   }
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

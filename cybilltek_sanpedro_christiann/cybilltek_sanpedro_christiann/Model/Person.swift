@@ -17,12 +17,12 @@ class Person: NSManagedObject {
     var person: Persons?
     
     let request: NSFetchRequest<NSFetchRequestResult> = Persons.fetchRequest()
-    request.predicate = NSPredicate(format: "email = %@",data["email"] as! String)
+    request.predicate = NSPredicate(format: "email = %@",data[personsKey.email] as! String)
     
     do {
       result = try containerContext.fetch(request) as! [Persons]
       if result.count == 0 {
-        NSEntityDescription.insertNewObject(forEntityName: "Persons", into: containerContext)
+        NSEntityDescription.insertNewObject(forEntityName: personsKey.entityPersons, into: containerContext)
         person = Persons(context:containerContext)
       }
       else {
@@ -32,14 +32,14 @@ class Person: NSManagedObject {
       print("error:\(error)")
     }
     
-    person?.email = data["email"] as? String
-    person?.firstname = data["firstname"] as? String
-    person?.lastname = data["lastname"] as? String
-    person?.birthday = data["birthday"] as? String
-    person?.mobile_number = data["mobile_number"] as? String
-    person?.address = data["address"] as? String
-    person?.contact_person = data["contact_person"] as? String
-    person?.contact_person_number = data["contact_person_number"] as? String
+    person?.email = data[personsKey.email] as? String
+    person?.firstname = data[personsKey.firstname] as? String
+    person?.lastname = data[personsKey.lastname] as? String
+    person?.birthday = data[personsKey.birthday] as? String
+    person?.mobile_number = data[personsKey.mobile_number] as? String
+    person?.address = data[personsKey.address] as? String
+    person?.contact_person = data[personsKey.contact_person] as? String
+    person?.contact_person_number = data[personsKey.contact_person_number] as? String
     
     do {
       try containerContext.save()

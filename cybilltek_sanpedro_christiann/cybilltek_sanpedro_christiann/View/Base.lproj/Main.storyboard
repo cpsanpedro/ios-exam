@@ -52,6 +52,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="0Ij-DA-3OX"/>
                     <connections>
+                        <outlet property="listTableView" destination="rB0-XQ-8Eg" id="B5G-nO-IcZ"/>
                         <segue destination="vRH-Ve-NHE" kind="show" identifier="goToNext" id="oMj-03-lcA"/>
                     </connections>
                 </viewController>

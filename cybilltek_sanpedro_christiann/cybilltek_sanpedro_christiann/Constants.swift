@@ -8,12 +8,36 @@
 
 import Foundation
 
-struct cellIdentifiers {
+struct identifiers {
   static let listCellIdentifier = "ListCellIdentifier"
+  static let goToNextIdentifier = "goToNext"
+  static let cellDetailIdentifier = "CellDetails"
 }
 
 struct url {
-  static let urlSampleJson = "https://www.dropbox.com/s/q0sszd2b12f292l/sample.json"
-  static let urlFirebaseJson = "https://firebasestorage.googleapis.com/v0/b/cybillteksanpedro.appspot.com/o/sample.json?alt=media&token=2f7eeddc-a233-4c9d-af10-937388736c99"
   static let urlJson = "https://cpsanpedro.000webhostapp.com/cpsanpedro/sample.json"
+}
+
+struct personsKey {
+  static let entityPersons = "Persons"
+  static let firstname = "firstname"
+  static let lastname = "lastname"
+  static let birthday = "birthday"
+  static let email = "email"
+  static let mobile_number = "mobile_number"
+  static let address = "address"
+  static let contact_person = "contact_person"
+  static let contact_person_number = "contact_person_number"
+}
+
+struct titles {
+  static let firstname = "First Name"
+  static let lastname = "Last Name"
+  static let birthday = "Birthday"
+  static let email = "Email"
+  static let mobile_number = "Mobile Number"
+  static let address = "Address"
+  static let contact_person = "Contact Person"
+  static let contact_person_number = "Contact Person's Phone Number"
+  static let age  = "Age"
 }
