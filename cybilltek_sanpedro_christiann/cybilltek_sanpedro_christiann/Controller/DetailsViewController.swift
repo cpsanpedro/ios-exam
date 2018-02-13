@@ -48,14 +48,11 @@ class DetailsViewController: UIViewController,UITableViewDelegate,UITableViewDat
     case 1:
       strValue = selectedPerson?.lastname ?? ""
     case 2:
-      strValue = selectedPerson?.birthday?.description ?? ""
+      strValue = selectedPerson?.birthday ?? ""
     case 3:
-      let now = Date()
-      let birthday: Date = selectedPerson?.birthday ?? now
-      let calendar = Calendar.current
-      
-      let ageComponents = calendar.dateComponents([.year], from: birthday, to: now)
-      let age = ageComponents.year!
+      let birthday = DateUtil.getDateOf((selectedPerson?.birthday)!, withFormat:"MMM d, YYYY")
+//      let birthday = DateUtil.getDateOf(selectedPerson?.birthday,"MMM d, YYYY")
+      let age = DateUtil.calculateAge(Of:birthday)
       strValue = String(age)
     case 4:
       strValue = selectedPerson?.email ?? ""

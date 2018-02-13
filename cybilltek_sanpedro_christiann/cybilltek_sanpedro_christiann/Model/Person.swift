@@ -35,7 +35,7 @@ class Person: NSManagedObject {
     person?.email = data["email"] as? String
     person?.firstname = data["firstname"] as? String
     person?.lastname = data["lastname"] as? String
-    person?.birthday = data["birthday"] as? Date
+    person?.birthday = data["birthday"] as? String
     person?.mobile_number = data["mobile_number"] as? String
     person?.address = data["address"] as? String
     person?.contact_person = data["contact_person"] as? String
