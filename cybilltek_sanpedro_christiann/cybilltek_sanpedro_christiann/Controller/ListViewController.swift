@@ -15,14 +15,7 @@ class ListViewController: UIViewController,UITableViewDataSource,UITableViewDele
   //MARK: Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
-      let file = FileUtil()
-      if !file.isFileExists("sample.json") {
-        self.downloadJson()
-      }
-      else {
-        print("Meron na")
-      }
-      
+      self.getJson()
         // Do any additional setup after loading the view.
     }
   
@@ -44,17 +37,25 @@ class ListViewController: UIViewController,UITableViewDataSource,UITableViewDele
     }
     
   //MARK: Custom Methods
-  func downloadJson() {
-    let destination = DownloadRequest.suggestedDownloadDestination(for: .documentDirectory)
-    
-    Alamofire.download(url.urlFirebaseJson, to: destination)
-      .downloadProgress(queue: DispatchQueue.global(qos: .utility)) { (progress) in
-        print("Progress: \(progress.fractionCompleted)")
-      }.validate().responseData { (response) in
-        print(response.destinationURL!.lastPathComponent)
-//        print(<#T##items: Any...##Any#>)
+  func getJson() {
+    let requestManager = RequestManager.get("cpsanpedro/sample.json", withParameter:[:])
+    Alamofire.request(requestManager)
+    .validate()
+      .responseJSON { (response) in
+        switch response.result {
+          case .success:
+            if let json = response.result.value {
+              print("json:\(json)")
+              self.save(json)
+          }
+          case .failure(let error):
+            print(error)
+        }
+        print("response:\(response)")
     }
-    
+  }
+  
+  func save(_ json:Any) {
     
   }
     /*

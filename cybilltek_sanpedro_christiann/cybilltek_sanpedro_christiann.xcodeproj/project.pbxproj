@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9712D9D7489D441B7806D2EC /* Pods_cybilltek_sanpedro_christiann.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6B1A01F73E1870D1A8A8693 /* Pods_cybilltek_sanpedro_christiann.framework */; };
+		AC6BF3942033370D00AB8C5C /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6BF3932033370D00AB8C5C /* RequestManager.swift */; };
 		ACADAE692030A97F00712A50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACADAE682030A97F00712A50 /* AppDelegate.swift */; };
 		ACADAE6E2030A97F00712A50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACADAE6C2030A97F00712A50 /* Main.storyboard */; };
 		ACADAE712030A97F00712A50 /* cybilltek_sanpedro_christiann.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ACADAE6F2030A97F00712A50 /* cybilltek_sanpedro_christiann.xcdatamodeld */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		831079E990A85031F3E8F02A /* Pods-cybilltek_sanpedro_christiann.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cybilltek_sanpedro_christiann.debug.xcconfig"; path = "Pods/Target Support Files/Pods-cybilltek_sanpedro_christiann/Pods-cybilltek_sanpedro_christiann.debug.xcconfig"; sourceTree = "<group>"; };
+		AC6BF3932033370D00AB8C5C /* RequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
 		ACADAE652030A97F00712A50 /* cybilltek_sanpedro_christiann.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cybilltek_sanpedro_christiann.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACADAE682030A97F00712A50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACADAE6D2030A97F00712A50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 		ACC1C5492031D08B00E30EAD /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				AC6BF3932033370D00AB8C5C /* RequestManager.swift */,
 				ACC1C5472031D08700E30EAD /* FileUtil.swift */,
 			);
 			path = Utils;
@@ -253,14 +256,10 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-cybilltek_sanpedro_christiann/Pods-cybilltek_sanpedro_christiann-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
-				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -277,6 +276,7 @@
 				ACADAE712030A97F00712A50 /* cybilltek_sanpedro_christiann.xcdatamodeld in Sources */,
 				ACADAE692030A97F00712A50 /* AppDelegate.swift in Sources */,
 				ACD748D52030AB68000A9734 /* ListViewController.swift in Sources */,
+				AC6BF3942033370D00AB8C5C /* RequestManager.swift in Sources */,
 				ACD748D32030AB28000A9734 /* Constants.swift in Sources */,
 				ACC1C5482031D08700E30EAD /* FileUtil.swift in Sources */,
 			);
