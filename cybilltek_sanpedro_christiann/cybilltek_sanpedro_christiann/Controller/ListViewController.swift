@@ -14,6 +14,7 @@ import Alamofire
 class ListViewController: UIViewController,UITableViewDataSource,UITableViewDelegate {
   
   var arrPersons: [Persons] = []
+  var selectedRow = 0
   
   //MARK: Life Cycle
     override func viewDidLoad() {
@@ -35,6 +36,12 @@ class ListViewController: UIViewController,UITableViewDataSource,UITableViewDele
     
     cell.textLabel?.text = person.firstname
     return cell
+  }
+  
+  //MARK: TableView Delegate
+  func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    selectedRow = indexPath.row
+    self.performSegue(withIdentifier: "goToNext", sender: self)
   }
   
 
@@ -73,9 +80,6 @@ class ListViewController: UIViewController,UITableViewDataSource,UITableViewDele
         
       }
     }
- 
-
-//    Person.addPerson(withData: formattedJson)
   }
   
   func read() -> [Persons] {
@@ -84,14 +88,19 @@ class ListViewController: UIViewController,UITableViewDataSource,UITableViewDele
     
     return read as! [Persons]
   }
-    /*
+  
+  
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
+      if segue.identifier == "goToNext" {
+       let vc = segue.destination as! DetailsViewController
+        vc.selectedPerson = arrPersons[selectedRow]
+      }
     }
-    */
+  
 
 }

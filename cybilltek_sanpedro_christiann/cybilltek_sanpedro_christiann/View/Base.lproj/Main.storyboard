@@ -51,10 +51,28 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="0Ij-DA-3OX"/>
+                    <connections>
+                        <segue destination="vRH-Ve-NHE" kind="show" identifier="goToNext" id="oMj-03-lcA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="476" y="132.68365817091455"/>
+        </scene>
+        <!--Details View Controller-->
+        <scene sceneID="A4e-5b-8Jc">
+            <objects>
+                <viewController id="vRH-Ve-NHE" customClass="DetailsViewController" customModule="cybilltek_sanpedro_christiann" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oMU-zX-k8m">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="RTZ-Ug-mfE"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WQ4-3z-was" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1156" y="133"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="KGg-U7-NvM">

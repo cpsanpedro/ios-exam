@@ -10,6 +10,7 @@
 		9712D9D7489D441B7806D2EC /* Pods_cybilltek_sanpedro_christiann.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6B1A01F73E1870D1A8A8693 /* Pods_cybilltek_sanpedro_christiann.framework */; };
 		AC6BF3942033370D00AB8C5C /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6BF3932033370D00AB8C5C /* RequestManager.swift */; };
 		AC6BF39620333E0000AB8C5C /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6BF39520333E0000AB8C5C /* Person.swift */; };
+		AC6BF39820334D8600AB8C5C /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6BF39720334D8600AB8C5C /* DetailsViewController.swift */; };
 		ACADAE692030A97F00712A50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACADAE682030A97F00712A50 /* AppDelegate.swift */; };
 		ACADAE6E2030A97F00712A50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACADAE6C2030A97F00712A50 /* Main.storyboard */; };
 		ACADAE712030A97F00712A50 /* cybilltek_sanpedro_christiann.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ACADAE6F2030A97F00712A50 /* cybilltek_sanpedro_christiann.xcdatamodeld */; };
@@ -25,6 +26,7 @@
 		831079E990A85031F3E8F02A /* Pods-cybilltek_sanpedro_christiann.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cybilltek_sanpedro_christiann.debug.xcconfig"; path = "Pods/Target Support Files/Pods-cybilltek_sanpedro_christiann/Pods-cybilltek_sanpedro_christiann.debug.xcconfig"; sourceTree = "<group>"; };
 		AC6BF3932033370D00AB8C5C /* RequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
 		AC6BF39520333E0000AB8C5C /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		AC6BF39720334D8600AB8C5C /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		ACADAE652030A97F00712A50 /* cybilltek_sanpedro_christiann.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cybilltek_sanpedro_christiann.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACADAE682030A97F00712A50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACADAE6D2030A97F00712A50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				ACD748D42030AB68000A9734 /* ListViewController.swift */,
+				AC6BF39720334D8600AB8C5C /* DetailsViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 				ACADAE712030A97F00712A50 /* cybilltek_sanpedro_christiann.xcdatamodeld in Sources */,
 				ACADAE692030A97F00712A50 /* AppDelegate.swift in Sources */,
 				ACD748D52030AB68000A9734 /* ListViewController.swift in Sources */,
+				AC6BF39820334D8600AB8C5C /* DetailsViewController.swift in Sources */,
 				AC6BF3942033370D00AB8C5C /* RequestManager.swift in Sources */,
 				AC6BF39620333E0000AB8C5C /* Person.swift in Sources */,
 				ACD748D32030AB28000A9734 /* Constants.swift in Sources */,
