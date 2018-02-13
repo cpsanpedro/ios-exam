@@ -20,6 +20,7 @@ class ListViewController: UIViewController,UITableViewDataSource,UITableViewDele
   //MARK: Life Cycle
     override func viewDidLoad() {
       super.viewDidLoad()
+      navigationItem.title = titles.listOfPersons
       arrPersons = self.read()
       if Connectivity.isConnected() {
         self.setupProgressHUD()

@@ -26,6 +26,7 @@ class DetailsViewController: UIViewController,UITableViewDelegate,UITableViewDat
   //MARK: Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
+        navigationItem.title = titles.details
         // Do any additional setup after loading the view.
     }
 
@@ -37,6 +38,10 @@ class DetailsViewController: UIViewController,UITableViewDelegate,UITableViewDat
   //MARK: UITable View Data Source
   func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
     return arrTitles.count
+  }
+  
+  func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+    return 70.0
   }
   
   func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {

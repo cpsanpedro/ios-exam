@@ -21,7 +21,6 @@
 		ACADAE732030A97F00712A50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACADAE722030A97F00712A50 /* Assets.xcassets */; };
 		ACADAE762030A97F00712A50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACADAE742030A97F00712A50 /* LaunchScreen.storyboard */; };
 		ACC1C5482031D08700E30EAD /* FileUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC1C5472031D08700E30EAD /* FileUtil.swift */; };
-		ACC1C54C2031DC9800E30EAD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ACC1C54A2031D90700E30EAD /* GoogleService-Info.plist */; };
 		ACD748D32030AB28000A9734 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD748D22030AB28000A9734 /* Constants.swift */; };
 		ACD748D52030AB68000A9734 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD748D42030AB68000A9734 /* ListViewController.swift */; };
 /* End PBXBuildFile section */
@@ -43,7 +42,6 @@
 		ACADAE752030A97F00712A50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACADAE772030A97F00712A50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACC1C5472031D08700E30EAD /* FileUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileUtil.swift; sourceTree = "<group>"; };
-		ACC1C54A2031D90700E30EAD /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		ACD748D22030AB28000A9734 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		ACD748D42030AB68000A9734 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		D6B1A01F73E1870D1A8A8693 /* Pods_cybilltek_sanpedro_christiann.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cybilltek_sanpedro_christiann.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -156,7 +154,6 @@
 		ACC1C54B2031D91300E30EAD /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				ACC1C54A2031D90700E30EAD /* GoogleService-Info.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -224,7 +221,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACADAE762030A97F00712A50 /* LaunchScreen.storyboard in Resources */,
-				ACC1C54C2031DC9800E30EAD /* GoogleService-Info.plist in Resources */,
 				ACADAE732030A97F00712A50 /* Assets.xcassets in Resources */,
 				ACADAE6E2030A97F00712A50 /* Main.storyboard in Resources */,
 			);
