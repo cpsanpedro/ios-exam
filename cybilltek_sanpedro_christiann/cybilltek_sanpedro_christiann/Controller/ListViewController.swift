@@ -7,8 +7,7 @@
 //
 
 import UIKit
-//import FileUtil
-
+import SVProgressHUD
 import Alamofire
 
 class ListViewController: UIViewController,UITableViewDataSource,UITableViewDelegate {
@@ -20,7 +19,8 @@ class ListViewController: UIViewController,UITableViewDataSource,UITableViewDele
   
   //MARK: Life Cycle
     override func viewDidLoad() {
-        super.viewDidLoad()
+      super.viewDidLoad()
+      self.setupProgressHUD()
       
       self.getJson()
       arrPersons = self.read()
@@ -46,13 +46,16 @@ class ListViewController: UIViewController,UITableViewDataSource,UITableViewDele
     self.performSegue(withIdentifier: identifiers.goToNextIdentifier, sender: self)
   }
   
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
     
   //MARK: Custom Methods
+
+  
+  
+  func setupProgressHUD() {
+    SVProgressHUD.show()
+    SVProgressHUD.setDefaultStyle(.dark)
+  }
+  
   func getJson() {
     let requestManager = RequestManager.get("cpsanpedro/sample.json", withParameter:[:])
     Alamofire.request(requestManager)
@@ -64,6 +67,7 @@ class ListViewController: UIViewController,UITableViewDataSource,UITableViewDele
               self.save(json)
               self.arrPersons = self.read()
               self.listTableView.reloadData()
+              SVProgressHUD.dismiss()
           }
           case .failure(let error):
             print(error)
