@@ -40,4 +40,5 @@ struct titles {
   static let contact_person = "Contact Person"
   static let contact_person_number = "Contact Person's Phone Number"
   static let age  = "Age"
+  static let noConnection = "No Internet Connection!"
 }

@@ -20,10 +20,16 @@ class ListViewController: UIViewController,UITableViewDataSource,UITableViewDele
   //MARK: Life Cycle
     override func viewDidLoad() {
       super.viewDidLoad()
-      self.setupProgressHUD()
-      
-      self.getJson()
       arrPersons = self.read()
+      if Connectivity.isConnected() {
+        self.setupProgressHUD()
+        self.getJson()
+      }
+      else if arrPersons.count == 0 {
+        AlertView.showSimpleAlert(view: self, message: titles.noConnection)
+      }
+      
+      
       // Do any additional setup after loading the view.
     }
   
@@ -48,8 +54,6 @@ class ListViewController: UIViewController,UITableViewDataSource,UITableViewDele
   
     
   //MARK: Custom Methods
-
-  
   
   func setupProgressHUD() {
     SVProgressHUD.show()
@@ -94,6 +98,7 @@ class ListViewController: UIViewController,UITableViewDataSource,UITableViewDele
   }
   
   
+//  MARK: AlertControll
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation

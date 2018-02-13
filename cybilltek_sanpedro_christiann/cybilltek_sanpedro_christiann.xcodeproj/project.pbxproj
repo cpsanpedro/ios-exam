@@ -13,6 +13,8 @@
 		AC6BF39820334D8600AB8C5C /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6BF39720334D8600AB8C5C /* DetailsViewController.swift */; };
 		AC6BF39A203351FF00AB8C5C /* CellDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6BF399203351FF00AB8C5C /* CellDetails.swift */; };
 		AC6BF39E20335E4600AB8C5C /* DateUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6BF39D20335E4600AB8C5C /* DateUtil.swift */; };
+		AC6BF3A020336F4E00AB8C5C /* Connectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6BF39F20336F4E00AB8C5C /* Connectivity.swift */; };
+		AC6BF3A220336FD400AB8C5C /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6BF3A120336FD300AB8C5C /* AlertView.swift */; };
 		ACADAE692030A97F00712A50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACADAE682030A97F00712A50 /* AppDelegate.swift */; };
 		ACADAE6E2030A97F00712A50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACADAE6C2030A97F00712A50 /* Main.storyboard */; };
 		ACADAE712030A97F00712A50 /* cybilltek_sanpedro_christiann.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ACADAE6F2030A97F00712A50 /* cybilltek_sanpedro_christiann.xcdatamodeld */; };
@@ -31,6 +33,8 @@
 		AC6BF39720334D8600AB8C5C /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		AC6BF399203351FF00AB8C5C /* CellDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellDetails.swift; sourceTree = "<group>"; };
 		AC6BF39D20335E4600AB8C5C /* DateUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateUtil.swift; sourceTree = "<group>"; };
+		AC6BF39F20336F4E00AB8C5C /* Connectivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connectivity.swift; sourceTree = "<group>"; };
+		AC6BF3A120336FD300AB8C5C /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
 		ACADAE652030A97F00712A50 /* cybilltek_sanpedro_christiann.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cybilltek_sanpedro_christiann.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACADAE682030A97F00712A50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACADAE6D2030A97F00712A50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -143,6 +147,8 @@
 				AC6BF3932033370D00AB8C5C /* RequestManager.swift */,
 				ACC1C5472031D08700E30EAD /* FileUtil.swift */,
 				AC6BF39D20335E4600AB8C5C /* DateUtil.swift */,
+				AC6BF39F20336F4E00AB8C5C /* Connectivity.swift */,
+				AC6BF3A120336FD300AB8C5C /* AlertView.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -292,8 +298,10 @@
 				ACADAE692030A97F00712A50 /* AppDelegate.swift in Sources */,
 				ACD748D52030AB68000A9734 /* ListViewController.swift in Sources */,
 				AC6BF39820334D8600AB8C5C /* DetailsViewController.swift in Sources */,
+				AC6BF3A220336FD400AB8C5C /* AlertView.swift in Sources */,
 				AC6BF3942033370D00AB8C5C /* RequestManager.swift in Sources */,
 				AC6BF39A203351FF00AB8C5C /* CellDetails.swift in Sources */,
+				AC6BF3A020336F4E00AB8C5C /* Connectivity.swift in Sources */,
 				AC6BF39620333E0000AB8C5C /* Person.swift in Sources */,
 				ACD748D32030AB28000A9734 /* Constants.swift in Sources */,
 				ACC1C5482031D08700E30EAD /* FileUtil.swift in Sources */,
