@@ -22,19 +22,19 @@ class DetailsViewController: UIViewController,UITableViewDelegate,UITableViewDat
                    titles.address,
                    titles.contact_person,
                    titles.contact_person_number]
-
+  
   //MARK: Life Cycle
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        navigationItem.title = titles.details
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
+  override func viewDidLoad() {
+    super.viewDidLoad()
+    navigationItem.title = titles.details
+    // Do any additional setup after loading the view.
+  }
+  
+  override func didReceiveMemoryWarning() {
+    super.didReceiveMemoryWarning()
+    // Dispose of any resources that can be recreated.
+  }
+  
   //MARK: UITable View Data Source
   func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
     return arrTitles.count
@@ -45,12 +45,10 @@ class DetailsViewController: UIViewController,UITableViewDelegate,UITableViewDat
   }
   
   func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-    var cell = tableView.dequeueReusableCell(withIdentifier: identifiers.cellDetailIdentifier) as? CellDetails
-    if cell == nil {
-      cell = CellDetails(style:UITableViewCellStyle.default, reuseIdentifier: identifiers.cellDetailIdentifier)
-    }
+
+  let cell = CellDetailsTableViewCell(style:UITableViewCellStyle.subtitle, reuseIdentifier: identifiers.cellDetailIdentifier)
     
-    cell?.titleLabel.text = arrTitles[indexPath.row]
+    cell.detailTextLabel?.text = arrTitles[indexPath.row]
     var strValue = ""
     switch indexPath.row {
     case 0:
@@ -76,9 +74,10 @@ class DetailsViewController: UIViewController,UITableViewDelegate,UITableViewDat
     default: break
       
     }
-    cell?.valueLabel.text = strValue 
+        cell.textLabel?.text = strValue
     
-    return cell!
+    return cell
   }
-
+  
 }
+

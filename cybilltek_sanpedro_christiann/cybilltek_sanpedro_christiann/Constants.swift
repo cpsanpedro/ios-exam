@@ -12,7 +12,10 @@ struct identifiers {
   static let listCellIdentifier = "ListCellIdentifier"
   static let goToNextIdentifier = "goToNext"
   static let cellDetailIdentifier = "CellDetails"
+  static let detailsNibName = "DetailsViewController"
+  static let listNibName = "ListViewController"
 }
+
 
 struct url {
   static let urlJson = "https://cpsanpedro.000webhostapp.com/cpsanpedro/sample.json"

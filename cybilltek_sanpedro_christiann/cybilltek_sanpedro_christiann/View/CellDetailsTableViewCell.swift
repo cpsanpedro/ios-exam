@@ -1,17 +1,15 @@
 //
-//  CellDetails.swift
+//  CellDetailsTableViewCell.swift
 //  cybilltek_sanpedro_christiann
 //
-//  Created by Christiann Carlos San Pedro on 14/02/2018.
+//  Created by Christiann Carlos San Pedro on 18/02/2018.
 //  Copyright © 2018 Christiann Carlos San Pedro. All rights reserved.
 //
 
 import UIKit
 
-class CellDetails: UITableViewCell {
+class CellDetailsTableViewCell: UITableViewCell {
 
-  @IBOutlet weak var titleLabel: UILabel!
-  @IBOutlet weak var valueLabel: UILabel!
   override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -22,5 +20,5 @@ class CellDetails: UITableViewCell {
 
         // Configure the view for the selected state
     }
-
+    
 }

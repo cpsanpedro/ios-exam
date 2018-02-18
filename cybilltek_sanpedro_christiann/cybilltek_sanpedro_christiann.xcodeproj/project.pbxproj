@@ -8,42 +8,46 @@
 
 /* Begin PBXBuildFile section */
 		9712D9D7489D441B7806D2EC /* Pods_cybilltek_sanpedro_christiann.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6B1A01F73E1870D1A8A8693 /* Pods_cybilltek_sanpedro_christiann.framework */; };
+		AC606DE52039B31100F89F40 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC606DE32039B31100F89F40 /* ListViewController.swift */; };
+		AC606DE62039B31100F89F40 /* ListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC606DE42039B31100F89F40 /* ListViewController.xib */; };
+		AC606DEB2039BD1A00F89F40 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC606DE92039BD1A00F89F40 /* DetailsViewController.swift */; };
+		AC606DEC2039BD1A00F89F40 /* DetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC606DEA2039BD1A00F89F40 /* DetailsViewController.xib */; };
+		AC606DEF2039D14500F89F40 /* CellDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC606DED2039D14500F89F40 /* CellDetailsTableViewCell.swift */; };
+		AC606DF02039D14500F89F40 /* CellDetailsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC606DEE2039D14500F89F40 /* CellDetailsTableViewCell.xib */; };
 		AC6BF3942033370D00AB8C5C /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6BF3932033370D00AB8C5C /* RequestManager.swift */; };
 		AC6BF39620333E0000AB8C5C /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6BF39520333E0000AB8C5C /* Person.swift */; };
-		AC6BF39820334D8600AB8C5C /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6BF39720334D8600AB8C5C /* DetailsViewController.swift */; };
-		AC6BF39A203351FF00AB8C5C /* CellDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6BF399203351FF00AB8C5C /* CellDetails.swift */; };
 		AC6BF39E20335E4600AB8C5C /* DateUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6BF39D20335E4600AB8C5C /* DateUtil.swift */; };
 		AC6BF3A020336F4E00AB8C5C /* Connectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6BF39F20336F4E00AB8C5C /* Connectivity.swift */; };
 		AC6BF3A220336FD400AB8C5C /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6BF3A120336FD300AB8C5C /* AlertView.swift */; };
 		ACADAE692030A97F00712A50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACADAE682030A97F00712A50 /* AppDelegate.swift */; };
-		ACADAE6E2030A97F00712A50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACADAE6C2030A97F00712A50 /* Main.storyboard */; };
 		ACADAE712030A97F00712A50 /* cybilltek_sanpedro_christiann.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ACADAE6F2030A97F00712A50 /* cybilltek_sanpedro_christiann.xcdatamodeld */; };
 		ACADAE732030A97F00712A50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACADAE722030A97F00712A50 /* Assets.xcassets */; };
 		ACADAE762030A97F00712A50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACADAE742030A97F00712A50 /* LaunchScreen.storyboard */; };
 		ACC1C5482031D08700E30EAD /* FileUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC1C5472031D08700E30EAD /* FileUtil.swift */; };
 		ACD748D32030AB28000A9734 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD748D22030AB28000A9734 /* Constants.swift */; };
-		ACD748D52030AB68000A9734 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD748D42030AB68000A9734 /* ListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		831079E990A85031F3E8F02A /* Pods-cybilltek_sanpedro_christiann.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cybilltek_sanpedro_christiann.debug.xcconfig"; path = "Pods/Target Support Files/Pods-cybilltek_sanpedro_christiann/Pods-cybilltek_sanpedro_christiann.debug.xcconfig"; sourceTree = "<group>"; };
+		AC606DE32039B31100F89F40 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		AC606DE42039B31100F89F40 /* ListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListViewController.xib; sourceTree = "<group>"; };
+		AC606DE92039BD1A00F89F40 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		AC606DEA2039BD1A00F89F40 /* DetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailsViewController.xib; sourceTree = "<group>"; };
+		AC606DED2039D14500F89F40 /* CellDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		AC606DEE2039D14500F89F40 /* CellDetailsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellDetailsTableViewCell.xib; sourceTree = "<group>"; };
 		AC6BF3932033370D00AB8C5C /* RequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
 		AC6BF39520333E0000AB8C5C /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
-		AC6BF39720334D8600AB8C5C /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
-		AC6BF399203351FF00AB8C5C /* CellDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellDetails.swift; sourceTree = "<group>"; };
 		AC6BF39D20335E4600AB8C5C /* DateUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateUtil.swift; sourceTree = "<group>"; };
 		AC6BF39F20336F4E00AB8C5C /* Connectivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connectivity.swift; sourceTree = "<group>"; };
 		AC6BF3A120336FD300AB8C5C /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
 		ACADAE652030A97F00712A50 /* cybilltek_sanpedro_christiann.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cybilltek_sanpedro_christiann.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACADAE682030A97F00712A50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ACADAE6D2030A97F00712A50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ACADAE702030A97F00712A50 /* cybilltek_sanpedro_christiann.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = cybilltek_sanpedro_christiann.xcdatamodel; sourceTree = "<group>"; };
 		ACADAE722030A97F00712A50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACADAE752030A97F00712A50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACADAE772030A97F00712A50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACC1C5472031D08700E30EAD /* FileUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileUtil.swift; sourceTree = "<group>"; };
 		ACD748D22030AB28000A9734 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		ACD748D42030AB68000A9734 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		D6B1A01F73E1870D1A8A8693 /* Pods_cybilltek_sanpedro_christiann.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cybilltek_sanpedro_christiann.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E155D13EED3BC898DCF0E1B3 /* Pods-cybilltek_sanpedro_christiann.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cybilltek_sanpedro_christiann.release.xcconfig"; path = "Pods/Target Support Files/Pods-cybilltek_sanpedro_christiann/Pods-cybilltek_sanpedro_christiann.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -113,8 +117,8 @@
 		ACADAE7D2030AA4D00712A50 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				ACD748D42030AB68000A9734 /* ListViewController.swift */,
-				AC6BF39720334D8600AB8C5C /* DetailsViewController.swift */,
+				AC606DE92039BD1A00F89F40 /* DetailsViewController.swift */,
+				AC606DE32039B31100F89F40 /* ListViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -122,10 +126,12 @@
 		ACADAE7E2030AA5700712A50 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				ACADAE6C2030A97F00712A50 /* Main.storyboard */,
 				ACADAE722030A97F00712A50 /* Assets.xcassets */,
 				ACADAE742030A97F00712A50 /* LaunchScreen.storyboard */,
-				AC6BF399203351FF00AB8C5C /* CellDetails.swift */,
+				AC606DE42039B31100F89F40 /* ListViewController.xib */,
+				AC606DEA2039BD1A00F89F40 /* DetailsViewController.xib */,
+				AC606DEE2039D14500F89F40 /* CellDetailsTableViewCell.xib */,
+				AC606DED2039D14500F89F40 /* CellDetailsTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -222,7 +228,9 @@
 			files = (
 				ACADAE762030A97F00712A50 /* LaunchScreen.storyboard in Resources */,
 				ACADAE732030A97F00712A50 /* Assets.xcassets in Resources */,
-				ACADAE6E2030A97F00712A50 /* Main.storyboard in Resources */,
+				AC606DF02039D14500F89F40 /* CellDetailsTableViewCell.xib in Resources */,
+				AC606DEC2039BD1A00F89F40 /* DetailsViewController.xib in Resources */,
+				AC606DE62039B31100F89F40 /* ListViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,29 +300,21 @@
 				ACADAE712030A97F00712A50 /* cybilltek_sanpedro_christiann.xcdatamodeld in Sources */,
 				AC6BF39E20335E4600AB8C5C /* DateUtil.swift in Sources */,
 				ACADAE692030A97F00712A50 /* AppDelegate.swift in Sources */,
-				ACD748D52030AB68000A9734 /* ListViewController.swift in Sources */,
-				AC6BF39820334D8600AB8C5C /* DetailsViewController.swift in Sources */,
 				AC6BF3A220336FD400AB8C5C /* AlertView.swift in Sources */,
 				AC6BF3942033370D00AB8C5C /* RequestManager.swift in Sources */,
-				AC6BF39A203351FF00AB8C5C /* CellDetails.swift in Sources */,
 				AC6BF3A020336F4E00AB8C5C /* Connectivity.swift in Sources */,
+				AC606DE52039B31100F89F40 /* ListViewController.swift in Sources */,
 				AC6BF39620333E0000AB8C5C /* Person.swift in Sources */,
+				AC606DEB2039BD1A00F89F40 /* DetailsViewController.swift in Sources */,
 				ACD748D32030AB28000A9734 /* Constants.swift in Sources */,
 				ACC1C5482031D08700E30EAD /* FileUtil.swift in Sources */,
+				AC606DEF2039D14500F89F40 /* CellDetailsTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		ACADAE6C2030A97F00712A50 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ACADAE6D2030A97F00712A50 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		ACADAE742030A97F00712A50 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
